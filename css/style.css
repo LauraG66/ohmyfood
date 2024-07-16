@@ -186,22 +186,32 @@ a {
   max-width: 250px;
 }
 
-.button__like {
-  width: 28px;
-  z-index: 0;
+.btn-heart {
   position: relative;
-  font-family: "Font Awesome 5 Free";
-  font-size: 25px;
-  padding: 0;
-  border: transparent 0px solid;
-  background-color: transparent;
-  -webkit-text-stroke: 1px white;
-  cursor: pointer;
+
+  &--outline {
+    position: absolute;
+  }
+  
+  &--solid {
+    position: absolute;
+    background: linear-gradient(180deg, #9356DC 0%, #FF79DA 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    transform: scale(0);
+  }
+  
+  &:hover {
+    cursor: pointer;
+    
+    & .btn-heart--solid {
+      transform: scale(1);
+      transition: transform 300ms;
+    }
+  }
 }
 
-.button__like:active {
-  background-color:  #9356DC;
-}
 
 .body {
   width: 100%;
@@ -547,11 +557,10 @@ a {
   font-weight: 300;
   font-size: 17px;
 }
-.restaurant__cards--like {
-  position: absolute;
-  top: 76%;
-  right: 7%;
-  font-size: 25px;
+.block {
+  width: 200px;
+  height: 200px;
+  margin: auto;
 }
 
 .page__restaurant--img {
