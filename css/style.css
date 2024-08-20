@@ -683,67 +683,50 @@ a {
   .header__goback {
     font-size: 32px;
   }
+    .footer__logo {
+      width: 137px;
+      margin: 0;
+    }
+
+      .functioning__list {
+        width: 98%;
+        flex-direction: row;
+        justify-content: space-between;
+      }
+    
+      .functioning__step {
+        width: 30%;
+      }
+
+      .page__restaurant--img {
+        height: 400px;
+      }
+
+      .race-list__heading {
+        font-size: 22px;
+      }
+
+      .slight__heading {
+        width: 400px;
+        height: 41px;
+        justify-content: center;
+      }
+
+      .slight__heading h2 {
+        display: flex;
+        font-size: 40px;
+        width: 95%;
+      }
+
+      .slight__container {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-between;
+      }
 }
 
-@media all and (min-width: 1024px) {
-  .footer__logo {
-    width: 137px;
-    margin: 0;
-  }
-}
-@media all and (min-width: 1024px) {
-  .functioning__list {
-    width: 98%;
-    flex-direction: row;
-    justify-content: space-between;
-  }
-}
 
-@media all and (min-width: 1024px) {
-  .functioning__step {
-    width: 30%;
-  }
-}
-
-@media all and (min-width: 1024px) {
-  .page__restaurant--img {
-    height: 400px;
-  }
-}
-
-@media all and (min-width: 1024px) {
-  .slight {
-    max-width: 1024px;
-    margin: auto;
-  }
-}
-@media all and (min-width: 1024px) {
-  .race-list__heading {
-    font-size: 22px;
-  }
-}
-@media all and (min-width: 1024px) {
-  .slight__heading {
-    width: 400px;
-    height: 41px;
-    justify-content: center;
-  }
-}
-@media all and (min-width: 1024px) {
-  .slight__heading h2 {
-    display: flex;
-    font-size: 40px;
-    width: 95%;
-  }
-}
-@media all and (min-width: 1024px) {
-  .slight__container {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: space-between;
-  }
-}
 
 @media all and (min-width: 768px) {
   .footer {
@@ -754,66 +737,53 @@ a {
     height: 114px;
     gap: 16px;
   }
-}
 
-@media all and (min-width: 768px) {
   .race-list {
     width: 100%;
   }
-}
 
-@media all and (min-width: 768px) {
+  .race-list {
+    width: 100%;
+  }
+
   .slight__heading h2 {
     display: flex;
     font-size: 35px;
     width: 95%;
   }
-}
-@media all and (min-width: 768px) {
+
   .slight__heading {
     width: 400px;
     height: 41px;
     justify-content: center;
   }
-}
 
-@media all and (min-width: 768px) {
-  .footer__nav--info p {
-    width: 130px;
-    height: 20px;
-  }
-}
-
-@media all and (min-width: 768px) {
   .footer__logo {
     width: 137px;
     margin: 0;
   }
-}
 
-@media all and (min-width: 768px) {
+  .footer__nav--info p {
+    width: 130px;
+    height: 20px;
+  }
+
   .footer__bloc {
     flex-direction: row;
     align-items: center;
     gap: 7px;
   }
-}
 
-@media all and (min-width: 768px) {
   .footer__nav {
     width: 190px;
   }
-}
 
-@media all and (min-width: 768px) {
   .restaurant__bloc {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
   }
-}
 
-@media all and (min-width: 768px) {
   .restaurant__cards {
     width: 48%;
     margin: 0;
